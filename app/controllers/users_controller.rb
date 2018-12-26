@@ -4,12 +4,14 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    # asks user model to retrieve all user from db
     @users = User.all
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
+    @users = User.all
   end
 
   # GET /users/new
