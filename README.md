@@ -21,4 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* 
+
+Heroku Installation
+====================
+
+nvm i v8
+npm install -g heroku
+source <(curl -sL https://cdn.learnenough.com/heroku_install)
